@@ -1,0 +1,21 @@
+{
+  "seed": 3303,
+  "power": {
+    "start": 13.8,
+    "impactAfter": 0.32,
+    "settleAfter": 0.6
+  },
+  "motors": {
+    "start": 16.08,
+    "clicksAfter": [
+      0.16666666666666666,
+      0.26666666666666666,
+      0.36666666666666664
+    ]
+  },
+  "acceleration": {
+    "start": 18.5,
+    "sweepAfter": 0.12,
+    "impactAfter": 0.7
+  }
+}

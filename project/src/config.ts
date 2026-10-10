@@ -1,7 +1,8 @@
 export const design = {
-  fontFamily: 'Montserrat, sans-serif', white: '#F5F7F4', accent: '#C2D991',
-  subtitleSize: 66, subtitleBottom: 310, subtitleWidth: 864, animationFrames: 14,
-  color: {contrast: 1.025, saturation: 0.96, brightness: 1.025}, soundVolume: 0.16,
+  fontFamily: 'Montserrat, sans-serif', white: '#FFFFFF', accent: '#BFFF00',
+  subtitleSize: 62, subtitleBottom: 310, subtitleWidth: 864, animationFrames: 14,
+  cameraZoom: 0.038, shadeOpacity: 0.86,
+  color: {contrast: 1.025, saturation: 0.96, brightness: 1.025}, soundVolume: 0.65,
 };
 // Intra-cue timings are provisional; captions.json retains original SRT boundaries.
 export const specifications = [

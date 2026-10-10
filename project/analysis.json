@@ -21,6 +21,18 @@
   "modelCorrection": "ZR9X Хайпер -> ZEEKR 9X Hyper, confirmed by user",
   "specificationsSource": "User SRT, not independently verified",
   "originalAudio": "voice.m4a copied AAC from source; source footage converted to H264 for browser compatibility",
-  "graphicsPlacement": "Numbers in upper-left garage-wall area; captions lower floor area, away from face; no crop, same cut structure",
-  "soundEffects": "Original seeded synthesized effects, no third-party music"
+  "graphicsPlacement": "Horizontally centered upper safe area; power graphic shortened to avoid the presenter face. Subtitles centered lower area.",
+  "soundEffects": "Three original seeded stereo SFX matched to waveform, motor icons, and acceleration curve. See sfx-timing.json.",
+  "revision": 3,
+  "colors": {
+    "white": "#FFFFFF",
+    "lime": "#BFFF00",
+    "numericGradient": [
+      "#D9FF00",
+      "#BFFF00",
+      "#79D700"
+    ]
+  },
+  "shadow": "No text shadow. Local radial dimming fades in before text entrance.",
+  "camera": "Source-aware smooth scale 1.0 to 1.038 to 1.002 in final shot, pivot 60% 48%."
 }
