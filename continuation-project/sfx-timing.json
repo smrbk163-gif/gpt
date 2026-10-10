@@ -1,0 +1,16 @@
+{
+  "seed": 3303,
+  "mass": {
+    "start": 2.99,
+    "impactAfter": 0.32
+  },
+  "emotion": {
+    "start": 8.87,
+    "sweepAfter": 0.16
+  },
+  "telegram": {
+    "start": 16.95,
+    "arrivalAfter": 0.32,
+    "clickAfter": 0.5
+  }
+}

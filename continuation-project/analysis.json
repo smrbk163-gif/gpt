@@ -1,0 +1,41 @@
+{
+  "sourceFile": "copy_4F7C1138-6BEA-4C00-B2DD-BCECF86C1C43.MOV",
+  "sourceDurationSeconds": 19.340998,
+  "videoDurationSeconds": 19.3193,
+  "width": 720,
+  "height": 1280,
+  "fps": 59.94005994005994,
+  "cutsSeconds": [
+    5.338667,
+    13.86385
+  ],
+  "style": "Approved version 3: Montserrat Black 900, #BFFF00, #FFFFFF, no text shadows, animated local dimming, centered motion when face-safe, corresponding original SFX, gentle camera scale",
+  "status": "Completed from supplied SRT; source phrase timings retained, internal splits estimated",
+  "placementPlan": [
+    {
+      "start": 0,
+      "end": 5.338667,
+      "shot": "Interior with presenter visible through open door",
+      "graphics": "Keep face and dashboard displays clear; consider lower-center seat area depending on speech"
+    },
+    {
+      "start": 5.338667,
+      "end": 13.86385,
+      "shot": "Front grille, headlights, red bow, presenter behind car",
+      "graphics": "Use lower-center caption safe zone; preserve bow and face; technical overlay only with supplied facts"
+    },
+    {
+      "start": 13.86385,
+      "end": 19.340998,
+      "shot": "Presenter beside front of vehicle",
+      "graphics": "Prefer upper-center roof/background area for motion, lower-center captions; inspect face trajectory"
+    }
+  ],
+  "displayedNameCorrection": "Rolls-Royce Cullinan, explicitly approved by user",
+  "render": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 581
+  }
+}

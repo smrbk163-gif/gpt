@@ -1,20 +1,9 @@
-# ZEEKR 9X Hyper — готовый Reels
+# ZEEKR 9X Hyper — automotive reels
 
-## Скачать
+Full first segment: [Download MP4](zeekr-9x-reel.mp4) · [Remotion project ZIP](automotive-reels-final-project.zip)
 
-- [Полный ролик — MP4, 1080×1920, 30 fps, 19,73 с](./zeekr-9x-reel.mp4?raw=true)
-- [Финальный проект Remotion с медиа, субтитрами и таймкодами](./automotive-reels-final-project.zip?raw=true)
+Continuation: [Download MP4](zeekr-9x-continuation.mp4) · [Remotion project ZIP](automotive-reels-continuation-project.zip)
 
-На Mac скачайте MP4 и откройте его в QuickTime. Полный ролик выполнен в утверждённом пользователем стиле версии 3: Montserrat Black 900, лаймовый #BFFF00 и белый #FFFFFF, без теней букв, с плавным локальным затемнением, центрированными блоками, технической графикой, авторскими звуковыми эффектами и мягким цифровым зумом до 3,8%.
+Both videos: 1080×1920, 30fps, H.264/AAC. Approved Montserrat Black, white/lime graphics, animated shading without text shadows, original speech and authored sound effects. Continuation: 19.37 seconds, mass >3.5 tonnes, happiness/emotions motif and Telegram CTA. Displayed Rolls-Royce Cullinan spelling approved by the user. Cue timings from the supplied SRT; intra-cue phrase timing is estimated.
 
-Оригинальная речь и структура исходных планов сохранены. Название модели подтверждено пользователем; характеристики взяты из его SRT. Короткие блоки субтитров используют предварительные внутренние таймкоды исходных крупных реплик; измеренного пословного выравнивания нет.
-
-Проверено: 592 кадра, H.264, 1080×1920, 30 fps, AAC 192 кбит/с, отсутствие ошибок декодирования и цифрового клиппинга. Длительность исходника 19,7197 с округлена вверх до сетки 30 fps: финал 19,7333 с. Максимальный уровень аудио -1,0 dBFS.
-
-Код доступен в папке `project/`, все нужные медиа — в ZIP. Распакуйте ZIP, откройте `automotive-reels` в Терминале, выполните `npm ci`, затем `npm run dev -- --no-open`. Цвета, затемнение, камера, звук и таймкоды меняются в `src/config.ts`. `scripts/generate_sfx.py` воспроизводит эффекты с seed 3303. В ZIP видеоряд дополнительно сжат для передачи; AAC-речь скопирована без перекодирования.
-
-## Тесты оформления
-
-- [Утверждённая версия 3 — 5,9 с](./style-test-v3.mp4?raw=true)
-- [Версия 2](./style-test-v2.mp4?raw=true)
-- [Версия 1](./style-test-1080p.mp4?raw=true)
+Editable text sources in project/ and continuation-project/. ZIP files contain media and full projects. Run npm ci then npm run dev.
