@@ -1,5 +1,10 @@
 {
   "seed": 3303,
+  "model": {
+    "start": 2.8,
+    "impactAfter": 0.32,
+    "settleAfter": 0.5
+  },
   "power": {
     "start": 13.8,
     "impactAfter": 0.32,

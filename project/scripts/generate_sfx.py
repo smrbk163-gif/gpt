@@ -33,6 +33,9 @@ def create(kind):
   for j,start in enumerate([5/30,8/30,11/30]):
    add(start,.12,lambda t,p,j=j:(.08*math.sin(2*math.pi*(1250+j*200)*t)+.035*rng.uniform(-1,1))*math.exp(-42*t)*(1-math.exp(-400*t)))
   add(.43,.24,lambda t,p:.10*math.sin(2*math.pi*125*t)*math.exp(-20*t)*(1-math.exp(-180*t)))
+ elif kind=='model':
+  add(.32,.22,lambda t,p:.10*math.sin(2*math.pi*110*t)*math.exp(-23*t)*(1-math.exp(-180*t)))
+  add(.50,.08,lambda t,p:.045*math.sin(2*math.pi*1400*t)*math.exp(-48*t))
  else:
   add(.16,.58,lambda t,p:.06*math.sin(2*math.pi*(300*t+1100*t*t))*math.sin(math.pi*p)**2)
   add(.70,.25,hit)
@@ -44,5 +47,5 @@ def create(kind):
    pan=.08*math.sin(i/SR*math.pi*3)
    frames.append(struct.pack('<hh',int(max(-.95,min(.95,v*(1-pan)))*32767),int(max(-.95,min(.95,v*(1+pan)))*32767)))
   w.writeframes(b''.join(frames))
-for kind in ['power','motors','acceleration']:create(kind)
-(ROOT/'sfx-timing.json').write_text(json.dumps({'seed':3303,'power':{'start':13.8,'impactAfter':.32,'settleAfter':.6},'motors':{'start':16.08,'clicksAfter':[5/30,8/30,11/30]},'acceleration':{'start':18.5,'sweepAfter':.12,'impactAfter':.70}},indent=2))
+for kind in ['power','motors','acceleration','model']:create(kind)
+(ROOT/'sfx-timing.json').write_text(json.dumps({'seed':3303,'model':{'start':2.8,'impactAfter':.32,'settleAfter':.50},'power':{'start':13.8,'impactAfter':.32,'settleAfter':.6},'motors':{'start':16.08,'clicksAfter':[5/30,8/30,11/30]},'acceleration':{'start':18.5,'sweepAfter':.12,'impactAfter':.70}},indent=2))

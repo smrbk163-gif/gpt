@@ -7,7 +7,11 @@
     "width": 1080,
     "height": 1920,
     "fps": 30,
-    "codec": "h264"
+    "codec": "h264",
+    "durationSeconds": 19.733333333333334,
+    "frames": 592,
+    "videoBitrate": "4M",
+    "audioBitrate": "192k"
   },
   "cutsSeconds": [
     8.692017,
@@ -34,5 +38,7 @@
     ]
   },
   "shadow": "No text shadow. Local radial dimming fades in before text entrance.",
-  "camera": "Source-aware smooth scale 1.0 to 1.038 to 1.002 in final shot, pivot 60% 48%."
+  "camera": "Source-aware smooth scale 1.0 to 1.038 to 1.002 in final shot, pivot 60% 48%.",
+  "status": "Full export authorized after style version 3 approval",
+  "finalAdditionalSfx": "Model reveal at 2.8s"
 }

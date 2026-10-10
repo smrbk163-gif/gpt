@@ -25,6 +25,7 @@ export const AudioLayer = () => {
   const {fps} = useVideoConfig();
   return <>
     <Audio name="Оригинальная речь" src={staticFile('voice.m4a')} premountFor={fps}/>
+    <Sequence name="Название модели — whoosh и мягкий щелчок" from={2.8*fps} durationInFrames={fps} premountFor={fps}><Audio src={staticFile('sfx-model.wav')} volume={design.soundVolume*.8} premountFor={fps}/></Sequence>
     <Sequence name="Мощность — whoosh и низкий удар" from={13.8*fps} durationInFrames={fps} premountFor={fps}><Audio src={staticFile('sfx-power.wav')} volume={design.soundVolume} premountFor={fps}/></Sequence>
     <Sequence name="Три мотора — три электрических щелчка" from={16.08*fps} durationInFrames={fps} premountFor={fps}><Audio src={staticFile('sfx-motors.wav')} volume={design.soundVolume} premountFor={fps}/></Sequence>
     <Sequence name="Разгон — нарастающий свип" from={18.5*fps} durationInFrames={fps} premountFor={fps}><Audio src={staticFile('sfx-acceleration.wav')} volume={design.soundVolume} premountFor={fps}/></Sequence>
