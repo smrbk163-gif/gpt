@@ -1,0 +1,30 @@
+[
+  {
+    "text": "Бедность — не порок.",
+    "startMs": 240,
+    "endMs": 1880,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Но, согласитесь, ZR9X Хайпер, она переносится гораздо легче.",
+    "startMs": 2080,
+    "endMs": 8560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Сегодня выдаём клиенту китайский внедорожник, в котором есть практически всё: 1 401 лошадиная сила,",
+    "startMs": 9400,
+    "endMs": 15880,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "3 электромотора, разгон до сотни за 3,1 секунды.",
+    "startMs": 16080,
+    "endMs": 19680,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

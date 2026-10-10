@@ -1,0 +1,26 @@
+{
+  "durationSeconds": 19.7197,
+  "sourceWidth": 720,
+  "sourceHeight": 1280,
+  "sourceFps": 59.94005994,
+  "delivery": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "codec": "h264"
+  },
+  "cutsSeconds": [
+    8.692017,
+    13.797117
+  ],
+  "testSourceRangeSeconds": [
+    13.8,
+    19.7
+  ],
+  "timingStatus": "Original cue boundaries from user SRT. Subphrase and specification timings provisional, not measured word alignment. No word timestamps available. Semantic highlighting uses whole phrases.",
+  "modelCorrection": "ZR9X Хайпер -> ZEEKR 9X Hyper, confirmed by user",
+  "specificationsSource": "User SRT, not independently verified",
+  "originalAudio": "voice.m4a copied AAC from source; source footage converted to H264 for browser compatibility",
+  "graphicsPlacement": "Numbers in upper-left garage-wall area; captions lower floor area, away from face; no crop, same cut structure",
+  "soundEffects": "Original seeded synthesized effects, no third-party music"
+}

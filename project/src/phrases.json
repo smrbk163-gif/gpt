@@ -1,0 +1,119 @@
+[
+  {
+    "text": "Бедность — не порок.",
+    "startMs": 240,
+    "endMs": 1880,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "не порок",
+    "strong": true
+  },
+  {
+    "text": "Но, согласитесь,",
+    "startMs": 2080,
+    "endMs": 2800,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "",
+    "strong": false
+  },
+  {
+    "text": "ZEEKR 9X Hyper,",
+    "startMs": 2800,
+    "endMs": 4650,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "ZEEKR 9X Hyper",
+    "strong": true
+  },
+  {
+    "text": "она переносится",
+    "startMs": 4650,
+    "endMs": 6000,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "",
+    "strong": false
+  },
+  {
+    "text": "гораздо легче.",
+    "startMs": 6000,
+    "endMs": 8560,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "легче",
+    "strong": false
+  },
+  {
+    "text": "Сегодня выдаём клиенту",
+    "startMs": 9400,
+    "endMs": 10800,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "",
+    "strong": false
+  },
+  {
+    "text": "китайский внедорожник,",
+    "startMs": 10800,
+    "endMs": 12100,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "",
+    "strong": false
+  },
+  {
+    "text": "в котором есть",
+    "startMs": 12100,
+    "endMs": 13150,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "",
+    "strong": false
+  },
+  {
+    "text": "практически всё:",
+    "startMs": 13150,
+    "endMs": 13800,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "всё",
+    "strong": false
+  },
+  {
+    "text": "1 401 лошадиная сила,",
+    "startMs": 13800,
+    "endMs": 15880,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "1 401",
+    "strong": true
+  },
+  {
+    "text": "3 электромотора,",
+    "startMs": 16080,
+    "endMs": 17200,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "3",
+    "strong": true
+  },
+  {
+    "text": "разгон до сотни",
+    "startMs": 17200,
+    "endMs": 18500,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "",
+    "strong": false
+  },
+  {
+    "text": "за 3,1 секунды.",
+    "startMs": 18500,
+    "endMs": 19680,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "3,1 секунды",
+    "strong": true
+  }
+]
