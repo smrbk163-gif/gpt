@@ -1,0 +1,2 @@
+60fps export from the original 59.94fps source. Approved animation timings preserved using a 30fps time domain evaluated at half-frame intervals. Original audio and SFX timing retained. Delivery: H.264/AAC, 1080x1920, 60fps.
+Run npm ci, replace public/footage.mp4 with an H.264 conversion of the original source at 60fps, then npm run dev. Media is retained in the existing source archives at 30fps; this folder contains updated source code for the 60fps export.

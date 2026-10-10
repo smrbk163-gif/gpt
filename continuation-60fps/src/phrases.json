@@ -1,0 +1,114 @@
+[
+  {
+    "text": "И всё это",
+    "startMs": 110,
+    "endMs": 1380,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "всё"
+  },
+  {
+    "text": "в одном семейном",
+    "startMs": 1380,
+    "endMs": 2100,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "семейном"
+  },
+  {
+    "text": "китайском внедорожнике",
+    "startMs": 2100,
+    "endMs": 2950,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "китайском"
+  },
+  {
+    "text": "вес которого больше",
+    "startMs": 2990,
+    "endMs": 4000,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "больше"
+  },
+  {
+    "text": "трёх с половиной тонн",
+    "startMs": 4000,
+    "endMs": 5350,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "трёх тонн"
+  },
+  {
+    "text": "Говорят, счастье не купишь.",
+    "startMs": 5710,
+    "endMs": 7550,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "не купишь"
+  },
+  {
+    "text": "Так и не в этом счастье.",
+    "startMs": 7670,
+    "endMs": 8790,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "счастье"
+  },
+  {
+    "text": "Счастье в эмоциях,",
+    "startMs": 8870,
+    "endMs": 10500,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "эмоциях"
+  },
+  {
+    "text": "которые вы будете испытывать",
+    "startMs": 10500,
+    "endMs": 11800,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "испытывать"
+  },
+  {
+    "text": "рядом с этим автомобилем.",
+    "startMs": 11800,
+    "endMs": 13750,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "автомобилем"
+  },
+  {
+    "text": "Вот такой вот",
+    "startMs": 14070,
+    "endMs": 15300,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": ""
+  },
+  {
+    "text": "китайский Rolls-Royce Cullinan,",
+    "startMs": 15300,
+    "endMs": 16870,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "Rolls-Royce Cullinan"
+  },
+  {
+    "text": "подробнее в Телеге.",
+    "startMs": 16950,
+    "endMs": 17910,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "Телеге"
+  },
+  {
+    "text": "Ссылка в описании профиля.",
+    "startMs": 17950,
+    "endMs": 19270,
+    "timestampMs": null,
+    "confidence": null,
+    "accent": "Ссылка"
+  }
+]
