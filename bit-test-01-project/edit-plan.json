@@ -1,0 +1,46 @@
+{
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "frames": 479,
+  "musicStartSeconds": 4.514,
+  "cutsFrames": [
+    120,
+    240,
+    360
+  ],
+  "shots": [
+    {
+      "source": "0019",
+      "startSourceSeconds": 0.06,
+      "endSourceSeconds": 2.4,
+      "outputFrames": 120,
+      "speedProfile": "Continuous sinusoidal time remap: rapid entry/exit, slow center",
+      "rampCoefficient": 0.7
+    },
+    {
+      "source": "0022",
+      "startSourceSeconds": 0.05,
+      "endSourceSeconds": 2.24,
+      "outputFrames": 120,
+      "speedProfile": "Continuous sinusoidal time remap: rapid entry/exit, slow center",
+      "rampCoefficient": 0.7
+    },
+    {
+      "source": "0021",
+      "startSourceSeconds": 0.035,
+      "endSourceSeconds": 1.82,
+      "outputFrames": 120,
+      "speedProfile": "Continuous sinusoidal time remap: rapid entry/exit, slow center",
+      "rampCoefficient": 0.7
+    },
+    {
+      "source": "0020",
+      "startSourceSeconds": 0.05,
+      "endSourceSeconds": 2.1,
+      "outputFrames": 119,
+      "speedProfile": "Continuous sinusoidal time remap: rapid entry/exit, slow center",
+      "rampCoefficient": 0.7
+    }
+  ]
+}

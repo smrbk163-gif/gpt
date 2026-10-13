@@ -13,3 +13,9 @@ Editable text sources in project/ and continuation-project/. ZIP files contain m
 [First segment — 60 fps MP4](zeekr-9x-reel-60fps.mp4) · [Continuation — 60 fps MP4](zeekr-9x-continuation-60fps.mp4)
 
 Re-rendered at 60 fps from original 59.94 fps footage. Approved animation durations, subtitles, original speech, and sound design preserved. 1080×1920, H.264/AAC. Updated rendering source in automotive-reels-60fps/ and continuation-60fps/.
+
+## Bit — first music edit trial
+
+[Download 1080p60 MP4](bit-test-01-1080p60.mp4) · [Editable Remotion project ZIP](bit-test-01-remotion-project.zip)
+
+7.983 seconds, four DJI angles, cuts on the supplied funk track accents, continuous speed ramps, subtle zoom transitions and original swishes. Full media used by the preview is included in the ZIP; original 4K uploads are not duplicated in the repository.
