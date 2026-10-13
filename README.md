@@ -19,3 +19,9 @@ Re-rendered at 60 fps from original 59.94 fps footage. Approved animation durati
 [Download 1080p60 MP4](bit-test-01-1080p60.mp4) · [Editable Remotion project ZIP](bit-test-01-remotion-project.zip)
 
 7.983 seconds, four DJI angles, cuts on the supplied funk track accents, continuous speed ramps, subtle zoom transitions and original swishes. Full media used by the preview is included in the ZIP; original 4K uploads are not duplicated in the repository.
+
+## Bit — full seven-angle edit
+
+[Full 1080p60 MP4](bit-full-01-1080p60.mp4) · [Editable Remotion project ZIP](bit-full-01-remotion-project.zip)
+
+15.983 seconds, all seven supplied shots, accent-aligned cuts, continuous speed ramps, original transition sounds. The three new MOV clips receive mild two-pass stabilization with a small crop; intentional camera movement is preserved. No Review-style captions. Full prepared media included in the ZIP.

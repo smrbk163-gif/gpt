@@ -1,0 +1,89 @@
+{
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "frames": 959,
+  "musicStartSeconds": 4.514,
+  "cutsFrames": [
+    120,
+    180,
+    300,
+    360,
+    480,
+    720
+  ],
+  "shots": [
+    {
+      "name": "0019",
+      "startFrame": 0,
+      "outputFrames": 120,
+      "startSourceSeconds": 0.06,
+      "endSourceSeconds": 2.4,
+      "rampCoefficient": 0.7,
+      "stabilized": false
+    },
+    {
+      "name": "0022",
+      "startFrame": 120,
+      "outputFrames": 60,
+      "startSourceSeconds": 0.05,
+      "endSourceSeconds": 2.24,
+      "rampCoefficient": 0.55,
+      "stabilized": false
+    },
+    {
+      "name": "new-front",
+      "startFrame": 180,
+      "outputFrames": 120,
+      "startSourceSeconds": 0.04,
+      "endSourceSeconds": 2.27,
+      "rampCoefficient": 0.6,
+      "stabilized": true
+    },
+    {
+      "name": "0021",
+      "startFrame": 300,
+      "outputFrames": 60,
+      "startSourceSeconds": 0.035,
+      "endSourceSeconds": 1.82,
+      "rampCoefficient": 0.55,
+      "stabilized": false
+    },
+    {
+      "name": "0020",
+      "startFrame": 360,
+      "outputFrames": 120,
+      "startSourceSeconds": 0.05,
+      "endSourceSeconds": 2.1,
+      "rampCoefficient": 0.7,
+      "stabilized": false
+    },
+    {
+      "name": "new-rear",
+      "startFrame": 480,
+      "outputFrames": 240,
+      "startSourceSeconds": 0.05,
+      "endSourceSeconds": 4.2,
+      "rampCoefficient": 0.45,
+      "stabilized": true
+    },
+    {
+      "name": "new-exit",
+      "startFrame": 720,
+      "outputFrames": 239,
+      "startSourceSeconds": 0.05,
+      "endSourceSeconds": 4.15,
+      "rampCoefficient": 0.3,
+      "stabilized": true
+    }
+  ],
+  "stabilization": {
+    "method": "two-pass vidstab",
+    "newClipsOnly": true,
+    "smoothing": 12,
+    "maxShiftPx": 20,
+    "maxAngleRad": 0.012,
+    "zoomPercent": 4,
+    "extraCrop": 1.015
+  }
+}
