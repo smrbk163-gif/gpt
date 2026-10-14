@@ -37,3 +37,9 @@ Re-rendered at 60 fps from original 59.94 fps footage. Approved animation durati
 [High-quality 1080p60 master on connected Google Drive](https://drive.google.com/file/d/1EqBQ8F_9unW5A4f_SaWCKaaasrACcck0/view?usp=drivesdk)
 
 36.4 seconds / 54,039,419 bytes. Mild two-pass stabilization, native-rate frames without blending, CRF16 prepared scenes with final stream-copy. Interior added: panorama, steering, 7.1-inch instruments, 16.1-inch central display / HyperOS, seat comfort. Staggered rolling digit columns and different animated diagrams per fact. Stronger original swishes, reel ticks, settle sounds, battery-cell clicks and timed music dips. No narration. Source/definitions in xiaomi-su7-drive-v2-project/. Master remains in the owner’s Drive; download the original file for full quality.
+
+## Drive V3 — wheel artifact fix, uniform 50% speed and gentle grade
+
+New master rendered and checked: 36.4 seconds / 41,949,768 bytes, 1080x1920 / 60fps output. Every source shot at 50% gives approximately 30 distinct source frames/sec; graphics are evaluated at 60fps. Area downscale and translation-only bilinear stabilization replace the sharper V2 processing. Representative 500×500 wheel crop: 322 near-white artifact pixels in V2, zero in V3 (source zero). Subtle cool-shadow / neutral-white grade. Counters and stronger SFX retained.
+
+Updated source in xiaomi-su7-drive-v3-project/. Delivery of the new master to Google Drive awaits the owner’s explicit confirmation following automatic approval review rejection.

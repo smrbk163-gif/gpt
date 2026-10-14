@@ -1,0 +1,23 @@
+{
+  "note": "500x500 wheel crops at representative frames; diagnostic pixel counts, not exhaustive video certification",
+  "crop": [
+    290,
+    850,
+    500,
+    500
+  ],
+  "results": {
+    "source": {
+      "nearWhitePixelsInCrop": 0,
+      "maxChannel": 217
+    },
+    "v2": {
+      "nearWhitePixelsInCrop": 322,
+      "maxChannel": 255
+    },
+    "v3": {
+      "nearWhitePixelsInCrop": 0,
+      "maxChannel": 218
+    }
+  }
+}

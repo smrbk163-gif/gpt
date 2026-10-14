@@ -1,0 +1,28 @@
+{
+  "rollClicksAfter": [
+    0.1,
+    0.18,
+    0.26,
+    0.34,
+    0.43,
+    0.52,
+    0.62
+  ],
+  "counterSettleAfter": 0.71,
+  "batteryCellClicksAfter": [
+    0.32,
+    0.385,
+    0.45,
+    0.515,
+    0.5800000000000001,
+    0.645,
+    0.71,
+    0.775
+  ],
+  "musicDipCenterAfter": 0.42,
+  "musicDipWidth": 0.32,
+  "musicBaseline": 0.76,
+  "musicDipDepth": 0.3,
+  "sfxGain": 1.65,
+  "seed": 7308
+}

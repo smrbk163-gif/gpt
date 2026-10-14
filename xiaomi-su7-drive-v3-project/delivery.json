@@ -1,0 +1,14 @@
+{
+  "masterFile": "xiaomi-su7-drive-v3-master-1080p60.mp4",
+  "bytes": 41949768,
+  "sha256": "16046ee8ececcf82035a8b525a5e2f717d1547795cdf5d297d2668c8a1cdd29d",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "distinctSourceFramesPerSecondApproximately": 30,
+  "animationFps": 60,
+  "frames": 2184,
+  "durationSeconds": 36.4,
+  "speed": 0.5,
+  "deliveryStatus": "Rendered and verified; Google Drive upload requires explicit approval after auto-review rejection"
+}
