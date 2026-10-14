@@ -1,0 +1,101 @@
+[
+  {
+    "source": "0068",
+    "value": "XIAOMI SU7",
+    "unit": "STANDARD · 2024",
+    "label": "ВСТРЕЧАЙ",
+    "kind": "hero",
+    "start": 0,
+    "frames": 137
+  },
+  {
+    "source": "0076",
+    "value": "299",
+    "unit": "Л.С.",
+    "label": "МОЩНОСТЬ",
+    "kind": "power",
+    "start": 137,
+    "frames": 136
+  },
+  {
+    "source": "0077",
+    "value": "5,28",
+    "unit": "СЕКУНДЫ · 0–100 КМ/Ч",
+    "label": "РАЗГОН",
+    "kind": "accel",
+    "start": 273,
+    "frames": 137
+  },
+  {
+    "source": "0071",
+    "value": "RWD",
+    "unit": "ЗАДНИЙ ПРИВОД",
+    "label": "СИЛА НА ЗАДНИХ КОЛЁСАХ",
+    "kind": "drive",
+    "start": 410,
+    "frames": 136
+  },
+  {
+    "source": "0070",
+    "value": "ЗЕРКАЛА",
+    "unit": "ЭЛЕКТРОСКЛАДЫВАНИЕ",
+    "label": "УДОБСТВО В ДЕТАЛЯХ",
+    "kind": "mirror",
+    "start": 546,
+    "frames": 137
+  },
+  {
+    "source": "0072",
+    "value": "LED",
+    "unit": "СВЕТОДИОДНАЯ ОПТИКА",
+    "label": "СВЕТ",
+    "kind": "light",
+    "start": 683,
+    "frames": 136
+  },
+  {
+    "source": "0074",
+    "value": "73,6",
+    "unit": "кВт·ч · LFP",
+    "label": "БАТАРЕЯ",
+    "kind": "battery",
+    "start": 819,
+    "frames": 137
+  },
+  {
+    "source": "0075",
+    "value": "ДО 700",
+    "unit": "КМ · ПО ЦИКЛУ CLTC",
+    "label": "ЗАПАС ХОДА",
+    "kind": "range",
+    "start": 956,
+    "frames": 136
+  },
+  {
+    "source": "0071",
+    "value": "15 МИН",
+    "unit": "ДО 350 КМ ЗАПАСА ХОДА",
+    "label": "БЫСТРАЯ ЗАРЯДКА",
+    "kind": "charge",
+    "start": 1092,
+    "frames": 137
+  },
+  {
+    "source": "0073",
+    "value": "210",
+    "unit": "КМ/Ч",
+    "label": "МАКСИМАЛЬНАЯ СКОРОСТЬ",
+    "kind": "speed",
+    "start": 1229,
+    "frames": 136
+  },
+  {
+    "source": "0069",
+    "value": "В САМАРЕ",
+    "unit": "В НАЛИЧИИ · ПРОБЕГ 99 000 КМ",
+    "label": "ЭТОТ АВТОМОБИЛЬ",
+    "kind": "end",
+    "start": 1365,
+    "frames": 137
+  }
+]

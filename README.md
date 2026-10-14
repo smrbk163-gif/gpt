@@ -25,3 +25,9 @@ Re-rendered at 60 fps from original 59.94 fps footage. Approved animation durati
 [Full 1080p60 MP4](bit-full-01-1080p60.mp4) · [Editable Remotion project ZIP](bit-full-01-remotion-project.zip)
 
 15.983 seconds, all seven supplied shots, accent-aligned cuts, continuous speed ramps, original transition sounds. The three new MOV clips receive mild two-pass stabilization with a small crop; intentional camera movement is preserved. No Review-style captions. Full prepared media included in the ZIP.
+
+## Drive — Xiaomi SU7 Standard, first version without voice
+
+[Download 1080p60 MP4](xiaomi-su7-drive-v1-1080p60.mp4) · [Remotion project ZIP](xiaomi-su7-drive-v1-project.zip)
+
+25.033 seconds on the supplied MAMA MA INSTRUMENTAL Slowed track. All ten DJI angles, exterior facts illustrated once per scene, Montserrat Black / lime-white graphics, separate entrances, localized shading, speed ramps, original sound accents and a manual mirror highlight. No narration, as requested for this first version. CLTC qualifier retained and mileage shown in the listing finale. All specifications sourced from the user’s listing. Voice reference is not included in the public project.
