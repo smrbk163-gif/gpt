@@ -1,0 +1,13 @@
+{
+  "masterFile": "xiaomi-su7-drive-v2-master-1080p60.mp4",
+  "bytes": 54039419,
+  "md5": "a66a354a1aa44a62c926dd644fb28dce",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 2184,
+  "durationSeconds": 36.4,
+  "driveUrl": "https://drive.google.com/file/d/1EqBQ8F_9unW5A4f_SaWCKaaasrACcck0/view?usp=drivesdk",
+  "qualityMode": "H264 CRF16 prepared scenes, final stream-copy with explicit RGB conversion matrix signaling",
+  "voice": "none per user choice"
+}

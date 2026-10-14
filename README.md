@@ -31,3 +31,9 @@ Re-rendered at 60 fps from original 59.94 fps footage. Approved animation durati
 [Download 1080p60 MP4](xiaomi-su7-drive-v1-1080p60.mp4) · [Remotion project ZIP](xiaomi-su7-drive-v1-project.zip)
 
 25.033 seconds on the supplied MAMA MA INSTRUMENTAL Slowed track. All ten DJI angles, exterior facts illustrated once per scene, Montserrat Black / lime-white graphics, separate entrances, localized shading, speed ramps, original sound accents and a manual mirror highlight. No narration, as requested for this first version. CLTC qualifier retained and mileage shown in the listing finale. All specifications sourced from the user’s listing. Voice reference is not included in the public project.
+
+## Drive V2 — interior, rolling counters, stronger graphics/SFX, quality master
+
+[High-quality 1080p60 master on connected Google Drive](https://drive.google.com/file/d/1EqBQ8F_9unW5A4f_SaWCKaaasrACcck0/view?usp=drivesdk)
+
+36.4 seconds / 54,039,419 bytes. Mild two-pass stabilization, native-rate frames without blending, CRF16 prepared scenes with final stream-copy. Interior added: panorama, steering, 7.1-inch instruments, 16.1-inch central display / HyperOS, seat comfort. Staggered rolling digit columns and different animated diagrams per fact. Stronger original swishes, reel ticks, settle sounds, battery-cell clicks and timed music dips. No narration. Source/definitions in xiaomi-su7-drive-v2-project/. Master remains in the owner’s Drive; download the original file for full quality.
