@@ -10,5 +10,6 @@
   "frames": 2184,
   "durationSeconds": 36.4,
   "speed": 0.5,
-  "deliveryStatus": "Rendered and verified; Google Drive upload requires explicit approval after auto-review rejection"
+  "deliveryStatus": "Uploaded after explicit user approval; verified Drive file size matches master",
+  "driveUrl": "https://drive.google.com/file/d/1SI2Ia6mdn_2lEJF3Q7flBN1ooPKPfk8W/view?usp=drivesdk"
 }

@@ -42,4 +42,4 @@ Re-rendered at 60 fps from original 59.94 fps footage. Approved animation durati
 
 New master rendered and checked: 36.4 seconds / 41,949,768 bytes, 1080x1920 / 60fps output. Every source shot at 50% gives approximately 30 distinct source frames/sec; graphics are evaluated at 60fps. Area downscale and translation-only bilinear stabilization replace the sharper V2 processing. Representative 500×500 wheel crop: 322 near-white artifact pixels in V2, zero in V3 (source zero). Subtle cool-shadow / neutral-white grade. Counters and stronger SFX retained.
 
-Updated source in xiaomi-su7-drive-v3-project/. Delivery of the new master to Google Drive awaits the owner’s explicit confirmation following automatic approval review rejection.
+Updated source in xiaomi-su7-drive-v3-project/. [Download/open the V3 master on Google Drive](https://drive.google.com/file/d/1SI2Ia6mdn_2lEJF3Q7flBN1ooPKPfk8W/view?usp=drivesdk). Uploaded after explicit owner approval; stored file size verified at 41,949,768 bytes. Download the original for full quality.
