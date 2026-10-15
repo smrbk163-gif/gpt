@@ -1,0 +1,170 @@
+[
+  {
+    "text": "подсветка",
+    "startMs": 280,
+    "endMs": 860,
+    "timestampMs": 320,
+    "confidence": null
+  },
+  {
+    "text": "салона",
+    "startMs": 880,
+    "endMs": 1380,
+    "timestampMs": 920,
+    "confidence": null
+  },
+  {
+    "text": "абсолютно",
+    "startMs": 2960,
+    "endMs": 3540,
+    "timestampMs": 3000,
+    "confidence": null
+  },
+  {
+    "text": "целый",
+    "startMs": 3560,
+    "endMs": 3880,
+    "timestampMs": 3600,
+    "confidence": null
+  },
+  {
+    "text": "автомобиль",
+    "startMs": 3880,
+    "endMs": 4500,
+    "timestampMs": 3920,
+    "confidence": null
+  },
+  {
+    "text": "панорама",
+    "startMs": 6680,
+    "endMs": 7340,
+    "timestampMs": 6720,
+    "confidence": null
+  },
+  {
+    "text": "ну",
+    "startMs": 7480,
+    "endMs": 7620,
+    "timestampMs": 7520,
+    "confidence": null
+  },
+  {
+    "text": "сейчас",
+    "startMs": 7640,
+    "endMs": 7900,
+    "timestampMs": 7680,
+    "confidence": null
+  },
+  {
+    "text": "не",
+    "startMs": 7920,
+    "endMs": 8040,
+    "timestampMs": 7960,
+    "confidence": null
+  },
+  {
+    "text": "видно",
+    "startMs": 8040,
+    "endMs": 8380,
+    "timestampMs": 8080,
+    "confidence": null
+  },
+  {
+    "text": "в",
+    "startMs": 9880,
+    "endMs": 9980,
+    "timestampMs": 9920,
+    "confidence": null
+  },
+  {
+    "text": "целом",
+    "startMs": 10000,
+    "endMs": 10420,
+    "timestampMs": 10040,
+    "confidence": null
+  },
+  {
+    "text": "в",
+    "startMs": 11640,
+    "endMs": 11740,
+    "timestampMs": 11680,
+    "confidence": null
+  },
+  {
+    "text": "хорошем",
+    "startMs": 11800,
+    "endMs": 12260,
+    "timestampMs": 11840,
+    "confidence": null
+  },
+  {
+    "text": "состоянии",
+    "startMs": 12280,
+    "endMs": 12900,
+    "timestampMs": 12320,
+    "confidence": null
+  },
+  {
+    "text": "сто",
+    "startMs": 13720,
+    "endMs": 13940,
+    "timestampMs": 13760,
+    "confidence": null
+  },
+  {
+    "text": "тысяч",
+    "startMs": 13960,
+    "endMs": 14240,
+    "timestampMs": 14000,
+    "confidence": null
+  },
+  {
+    "text": "километров",
+    "startMs": 14240,
+    "endMs": 14780,
+    "timestampMs": 14280,
+    "confidence": null
+  },
+  {
+    "text": "пробега",
+    "startMs": 14800,
+    "endMs": 15300,
+    "timestampMs": 14840,
+    "confidence": null
+  },
+  {
+    "text": "вот",
+    "startMs": 26320,
+    "endMs": 26540,
+    "timestampMs": 26360,
+    "confidence": null
+  },
+  {
+    "text": "так",
+    "startMs": 26560,
+    "endMs": 26780,
+    "timestampMs": 26600,
+    "confidence": null
+  },
+  {
+    "text": "вот",
+    "startMs": 26800,
+    "endMs": 26980,
+    "timestampMs": 26840,
+    "confidence": null
+  },
+  {
+    "text": "выглядит",
+    "startMs": 27000,
+    "endMs": 27400,
+    "timestampMs": 27040,
+    "confidence": null
+  },
+  {
+    "text": "сзади",
+    "startMs": 27400,
+    "endMs": 27820,
+    "timestampMs": 27440,
+    "confidence": null
+  }
+]

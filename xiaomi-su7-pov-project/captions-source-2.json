@@ -1,0 +1,198 @@
+[
+  {
+    "text": "продажа",
+    "startMs": 160,
+    "endMs": 600,
+    "timestampMs": 200,
+    "confidence": null
+  },
+  {
+    "text": "Xiaomi",
+    "startMs": 600,
+    "endMs": 1140,
+    "timestampMs": 640,
+    "confidence": null
+  },
+  {
+    "text": "SU7",
+    "startMs": 1160,
+    "endMs": 1700,
+    "timestampMs": 1200,
+    "confidence": null
+  },
+  {
+    "text": "по",
+    "startMs": 1720,
+    "endMs": 1880,
+    "timestampMs": 1760,
+    "confidence": null
+  },
+  {
+    "text": "первой",
+    "startMs": 1880,
+    "endMs": 2240,
+    "timestampMs": 1920,
+    "confidence": null
+  },
+  {
+    "text": "цене",
+    "startMs": 2240,
+    "endMs": 2540,
+    "timestampMs": 2280,
+    "confidence": null
+  },
+  {
+    "text": "три",
+    "startMs": 3920,
+    "endMs": 4140,
+    "timestampMs": 3960,
+    "confidence": null
+  },
+  {
+    "text": "миллиона",
+    "startMs": 4160,
+    "endMs": 4640,
+    "timestampMs": 4200,
+    "confidence": null
+  },
+  {
+    "text": "рублей",
+    "startMs": 4640,
+    "endMs": 5020,
+    "timestampMs": 4680,
+    "confidence": null
+  },
+  {
+    "text": "киргизский",
+    "startMs": 5360,
+    "endMs": 6020,
+    "timestampMs": 5400,
+    "confidence": null
+  },
+  {
+    "text": "учёт",
+    "startMs": 6040,
+    "endMs": 6380,
+    "timestampMs": 6080,
+    "confidence": null
+  },
+  {
+    "text": "это",
+    "startMs": 7480,
+    "endMs": 7700,
+    "timestampMs": 7520,
+    "confidence": null
+  },
+  {
+    "text": "стандартная",
+    "startMs": 7720,
+    "endMs": 8240,
+    "timestampMs": 7760,
+    "confidence": null
+  },
+  {
+    "text": "комплектация",
+    "startMs": 8240,
+    "endMs": 9020,
+    "timestampMs": 8280,
+    "confidence": null
+  },
+  {
+    "text": "на",
+    "startMs": 11760,
+    "endMs": 11900,
+    "timestampMs": 11800,
+    "confidence": null
+  },
+  {
+    "text": "светлом",
+    "startMs": 11960,
+    "endMs": 12420,
+    "timestampMs": 12000,
+    "confidence": null
+  },
+  {
+    "text": "салоне",
+    "startMs": 12440,
+    "endMs": 12940,
+    "timestampMs": 12480,
+    "confidence": null
+  },
+  {
+    "text": "триста",
+    "startMs": 15940,
+    "endMs": 16230,
+    "timestampMs": 16000,
+    "confidence": null
+  },
+  {
+    "text": "лошадей",
+    "startMs": 16320,
+    "endMs": 16780,
+    "timestampMs": 16360,
+    "confidence": null
+  },
+  {
+    "text": "так",
+    "startMs": 21080,
+    "endMs": 21400,
+    "timestampMs": 21120,
+    "confidence": null
+  },
+  {
+    "text": "вот",
+    "startMs": 21480,
+    "endMs": 21670,
+    "timestampMs": 21520,
+    "confidence": null
+  },
+  {
+    "text": "сзади",
+    "startMs": 21680,
+    "endMs": 22020,
+    "timestampMs": 21720,
+    "confidence": null
+  },
+  {
+    "text": "такие",
+    "startMs": 22040,
+    "endMs": 22320,
+    "timestampMs": 22080,
+    "confidence": null
+  },
+  {
+    "text": "красивые",
+    "startMs": 22320,
+    "endMs": 22720,
+    "timestampMs": 22360,
+    "confidence": null
+  },
+  {
+    "text": "номера",
+    "startMs": 22720,
+    "endMs": 23140,
+    "timestampMs": 22760,
+    "confidence": null
+  },
+  {
+    "text": "находятся",
+    "startMs": 23320,
+    "endMs": 23800,
+    "timestampMs": 23360,
+    "confidence": null
+  },
+  {
+    "text": "в",
+    "startMs": 23800,
+    "endMs": 23880,
+    "timestampMs": 23840,
+    "confidence": null
+  },
+  {
+    "text": "Самаре",
+    "startMs": 23880,
+    "endMs": 24380,
+    "timestampMs": 23920,
+    "confidence": null
+  }
+]
