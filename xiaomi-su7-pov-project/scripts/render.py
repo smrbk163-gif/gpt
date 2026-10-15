@@ -17,8 +17,15 @@ def fitted(text,n,width,italic=False):
 def word_sprite(word):
  word=word.upper();f=fitted(word,96,850,True);box=f.getbbox(word);w=math.ceil(f.getlength(word))+60;h=175
  im=Image.new('RGBA',(w,h));d=ImageDraw.Draw(im);col=L if word in ['XIAOMI','SU7','ПАНОРАМА','САМАРЕ'] else W;d.text((w/2,20),word,font=f,anchor='mt',fill=col)
- yy,xx=np.mgrid[0:h,0:w];a=np.clip(1-(((xx-w/2)/(w*.63))**2+((yy-70)/100)**2),0,1)**1.7*.63
- rgba=np.zeros((h,w,4),np.uint8);rgba[:,:,3]=(a*255).astype(np.uint8);bg=Image.fromarray(rgba);return Image.alpha_composite(bg,im)
+ return im
+
+@lru_cache(1)
+def bottom_gradient():
+ im=Image.new('RGBA',(1080,1920));d=ImageDraw.Draw(im)
+ for y in range(1100,1920):
+  u=clamp((y-1100)/820);a=round(140*(u*u*(3-2*u)));d.line((0,y,1080,y),fill=(0,0,0,a))
+ return im
+
 def path(d,points,p,fill,width=2):
  lens=[math.dist(a,b) for a,b in zip(points,points[1:])];left=sum(lens)*clamp(p)
  for a,b,le in zip(points,points[1:],lens):
@@ -26,17 +33,17 @@ def path(d,points,p,fill,width=2):
   q=min(1,left/max(le,1e-6));d.line([a,(a[0]+q*(b[0]-a[0]),a[1]+q*(b[1]-a[1]))],fill=fill,width=width);left-=le
 
 def card_layer(c,t,source):
- local=t-c['start'];remaining=c['end']-t;a=min(ease(local/.18),clamp(remaining/.16));p=ease((local-.04)/.36)
+ local=t-c['start'];cue=min(ease(local/.22),ease((1.05-local)/.32));remaining=c['end']-t;a=min(ease(local/.18),clamp(remaining/.16));p=ease((local-.04)/.36)
  x=c['x']+round(14*(1-ease(local/.3)));y=c['y'];im=Image.new('RGBA',(1080,1920));d=ImageDraw.Draw(im);cw=440;ch=210
  # Fine anchored callouts only for the visible object, not false measurements.
- if c['kind'] in ['car','screen','roof','seats']:
+ if c['kind'] in ['car','screen','roof','seats'] and cue>0:
   if c['kind']=='car':target=(580+20*clamp((t-1.85)/1.5),870+85*clamp((t-1.85)/1.5))
   elif c['kind']=='screen':target=(450-45*clamp(t/2.7),490+35*clamp(t/2.7))
   elif c['kind']=='roof':target=(570,610)
   else:target=(730,1320)
-  ax=x+cw/2;ay=y+ch;path(d,[(ax,ay),(ax,ay+36),target],p,(191,255,0,145),2)
-  if p>.8:
-   rr=8+2*math.sin(local*9);d.ellipse((target[0]-rr,target[1]-rr,target[0]+rr,target[1]+rr),outline=(191,255,0,170),width=2)
+  ax=x+cw/2;ay=y+ch;path(d,[(ax,ay),(ax,ay+36),target],min(p,cue),(191,255,0,round(145*cue)),2)
+  if p>.8 and cue>.7:
+   rr=8+2*math.sin(local*9);d.ellipse((target[0]-rr,target[1]-rr,target[0]+rr,target[1]+rr),outline=(191,255,0,round(170*cue)),width=2)
  d.rounded_rectangle((x,y,x+cw,y+ch),radius=16,fill=(5,15,15,157),outline=(230,255,246,52),width=1)
  for points in [[(x+32,y),(x,y),(x,y+32)],[(x+cw-32,y+ch),(x+cw,y+ch),(x+cw,y+ch-32)]]:path(d,points,p,(191,255,0,225),3)
  d.text((x+22,y+19),c['label'],font=fitted(c['label'],21,365),fill=(225,245,237,225))
@@ -44,26 +51,25 @@ def card_layer(c,t,source):
  value=c['value'];f=fitted(value,52,395,True);vy=y+59
  # Small odometer reels for numeric facts; all other labels slide softly.
  if value[0].isdigit() or value.startswith('До '):
-  h=78;widths=[round(f.getlength('8')+7) if z.isdigit() else round(f.getlength(z)+4) for z in value];xx=x+22
+  h=78;baseline=52;widths=[round(f.getlength('8')+7) if z.isdigit() else round(f.getlength(z)+4) for z in value];xx=x+22
   for j,(z,w) in enumerate(zip(value,widths)):
    if z.isdigit():
     reel=Image.new('RGBA',(w+8,h*3));rd=ImageDraw.Draw(reel)
-    for row in range(3):rd.text((w/2+4,row*h),str((int(z)+2-row)%10),font=f,anchor='mt',fill=L)
+    for row in range(3):rd.text((w/2+4,row*h+baseline),str((int(z)+2-row)%10),font=f,anchor='ms',fill=L)
     pos=round(ease((local-.08-j*.018)/.4)*h*2);im.alpha_composite(reel.crop((0,pos,w+8,pos+h)),(xx,vy))
-   elif z==',':d.text((xx+w/2,vy+f.getbbox('8',anchor='mt')[3]),z,font=f,anchor='ms',fill=L)
-   else:d.text((xx+w/2,vy),z,font=f,anchor='mt',fill=L)
+   else:d.text((xx+w/2,vy+baseline),z,font=f,anchor='ms',fill=L)
    xx+=w
  else:d.text((x+22,vy+round(12*(1-ease((local-.06)/.24)))),value,font=f,fill=L)
  if c['note']:d.text((x+22,y+128),c['note'],font=fitted(c['note'],24,397),fill=W)
  d.line((x+22,y+185,x+cw-22,y+185),fill=(255,255,255,37),width=1);d.line((x+22,y+185,x+22+(cw-44)*p,y+185),fill=(191,255,0,170),width=2)
  # Quiet scan cue: four short corner marks, no fabricated confidence/telemetry.
- if c['kind']=='roof':
-  for xx,yy,sx,sy in [(260,450,1,1),(820,450,-1,1),(260,780,1,-1),(820,780,-1,-1)]:path(d,[(xx+sx*28,yy),(xx,yy),(xx,yy+sy*28)],p,(191,255,0,100),2)
+ if c['kind']=='roof' and cue>0:
+  for xx,yy,sx,sy in [(260,450,1,1),(820,450,-1,1),(260,780,1,-1),(820,780,-1,-1)]:path(d,[(xx+sx*28,yy),(xx,yy),(xx,yy+sy*28)],min(p,cue),(191,255,0,round(100*cue)),2)
  if a<1:im.putalpha(im.getchannel('A').point(lambda v:int(v*a)))
  return im
 
 def graphics(t,source,words,cards):
- im=Image.new('RGBA',(1080,1920));d=ImageDraw.Draw(im)
+ im=bottom_gradient().copy();d=ImageDraw.Draw(im)
  # Minimal glasses-style viewport corners.
  for x,y,sx,sy in [(38,90,1,1),(1042,90,-1,1),(38,1810,1,-1),(1042,1810,-1,-1)]:d.line([(x+sx*20,y),(x,y),(x,y+sy*20)],fill=(230,255,248,40),width=1)
  if source==2 and .15<t<2.7:
@@ -87,7 +93,7 @@ def render(source):
  index=source-1;nframes=FRAMES[source];words=json.loads((R/f'captions-source-{source}.json').read_text());cards=json.loads((R/f'cards-source-{source}.json').read_text());tr=R/'analysis'/f'transforms-{source}.trf'
  vf=f'format=yuv420p,vidstabtransform=input={tr}:smoothing=15:optalgo=gauss:maxshift=8:maxangle=0:zoom=2.4:optzoom=0:interpol=bilinear,format=yuv420p,eq=gamma=1.025:saturation=1.01,fps=60,tpad=stop_mode=clone:stop_duration=0.1,trim=end_frame={nframes},setsar=1'
  dec=subprocess.Popen(['ffmpeg','-v','error','-threads','2','-i',FILES[index],'-map','0:v:0','-an','-filter_threads','1','-vf',vf,'-frames:v',str(nframes),'-f','rawvideo','-pix_fmt','rgb24','pipe:1'],stdout=subprocess.PIPE,stderr=subprocess.PIPE,env={**os.environ,'OMP_NUM_THREADS':'1'})
- out=R/'public'/f'part-source-{source}.mp4';enc=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1080x1920','-r','60','-i','pipe:0','-an','-c:v','libx264','-threads','2','-preset','fast','-crf','16','-pix_fmt','yuv420p','-map_metadata','-1','-write_tmcd','0','-movflags','+faststart',str(out)],stdin=subprocess.PIPE,stderr=subprocess.PIPE)
+ out=R/'public'/f'part-source-{source}.mp4';enc=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1080x1920','-r','60','-i','pipe:0','-an','-c:v','libx264','-threads','2','-preset','medium','-crf','16','-maxrate','12800k','-bufsize','12800k','-pix_fmt','yuv420p','-map_metadata','-1','-write_tmcd','0','-movflags','+faststart',str(out)],stdin=subprocess.PIPE,stderr=subprocess.PIPE)
  for n in range(nframes):
   need=1080*1920*3;parts=[]
   while need:
