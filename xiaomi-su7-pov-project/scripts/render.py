@@ -86,7 +86,7 @@ def graphics(t,source,words,cards):
 def render(source):
  index=source-1;nframes=FRAMES[source];words=json.loads((R/f'captions-source-{source}.json').read_text());cards=json.loads((R/f'cards-source-{source}.json').read_text());tr=R/'analysis'/f'transforms-{source}.trf'
  vf=f'format=yuv420p,vidstabtransform=input={tr}:smoothing=15:optalgo=gauss:maxshift=8:maxangle=0:zoom=2.4:optzoom=0:interpol=bilinear,format=yuv420p,eq=gamma=1.025:saturation=1.01,fps=60,tpad=stop_mode=clone:stop_duration=0.1,trim=end_frame={nframes},setsar=1'
- dec=subprocess.Popen(['ffmpeg','-v','error','-threads','2','-i',FILES[index],'-map','0:v:0','-an','-filter_threads','1','-vf',vf,'-f','rawvideo','-pix_fmt','rgb24','pipe:1'],stdout=subprocess.PIPE,stderr=subprocess.PIPE,env={**os.environ,'OMP_NUM_THREADS':'1'})
+ dec=subprocess.Popen(['ffmpeg','-v','error','-threads','2','-i',FILES[index],'-map','0:v:0','-an','-filter_threads','1','-vf',vf,'-frames:v',str(nframes),'-f','rawvideo','-pix_fmt','rgb24','pipe:1'],stdout=subprocess.PIPE,stderr=subprocess.PIPE,env={**os.environ,'OMP_NUM_THREADS':'1'})
  out=R/'public'/f'part-source-{source}.mp4';enc=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1080x1920','-r','60','-i','pipe:0','-an','-c:v','libx264','-threads','2','-preset','fast','-crf','16','-pix_fmt','yuv420p','-map_metadata','-1','-write_tmcd','0','-movflags','+faststart',str(out)],stdin=subprocess.PIPE,stderr=subprocess.PIPE)
  for n in range(nframes):
   need=1080*1920*3;parts=[]
